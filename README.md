@@ -78,9 +78,9 @@ Cypress has multiple components, like:
 **Features**
 <li><b>Time travel --></b> that means cypress takes snapshot of every step which is running, <br>  Suppose if there are 10 lines of code the cypress will take every snap shot of the step and, <br>  Suppose you are on 5th line so now you can also go back to run the previous line or otherwise forward.</li><br>
 <li><b>Debuggability --></b> Cypress have acces to all dev tools i.e while running a code if some error occurs you can debug the code there itself <br> without running the code once again.</li><br>
-<li><b>Automatic Wait (Built-in Wait) --></b> that means if some element takes time to load or a page takes time to load without using any other <br>  function, it has this special feature which waits automatically for the element to get load and then perform the action.</li><br>
+<li><b>Automatic Wait (Built-in Wait) --></b> that means if some element takes time to load or a page takes time to load without using any other function, it has this special feature which waits automatically for the element to get load and then perform the action.</li><br>
 <li><b>Consistency --></b> Cypress provide consistent results because it runs inside the browser.</li><br>
-<li><b>Screenshots & Videos --></b>When you run test cases if something got failed the screen shot will get automatically captured and same test  cases will be recorded in video format.</li>
+<li><b>Screenshots & Videos --></b>When you run test cases if something got failed the screen shot will get automatically captured and same test  cases will be recorded in video format.</li><br>
 <li><b>Cross Browser Testing --></b> that means it helps to run test cases on multiple browsers which are supported</li><br>
 <br>
 
