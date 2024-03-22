@@ -90,3 +90,44 @@ Cypress has multiple components, like:
 <li>Suports only Javascript/Typescript.</li>
 <li>Reading writing data into files are difficult.</li>
 <li>Third Party reporting tool integration is also limited.</li>
+
+**Environment Setup**
+<ol>
+  <li>Download and install Node.js</li>
+  <li>Download and install vidual studio code (vscode)</li>
+  <li>Crete a new folder for project and open in vscode</li>
+  <li>open cmd/terminal then execute below command </li>
+  &emsp;   <b>npm -i init    ----> creates a package.json file</b>
+  <li>To install cypress</li>
+  &emsp;  <b>npm install cypress --save -dev</b>
+  <li>Start cypress</li>
+  &emsp;  <b>npx cypress open</b> &emsp;  (or)<br>
+  &emsp;  <b>node_modules/.bin/cypress open</b>
+</ol>
+
+**Writting & Executing Tests**
+
+        describe('Suite Name', () => {
+        
+          it('Test1', () => {
+            expect(true).to.equal(true)
+          })
+
+          it('Test2', () => {
+            expect(true).to.equal(true)
+          })          
+        })
+
+        (or)
+
+        describe('Suite Name', function()
+        {
+          it('Test1', () => {
+            expect(true).to.equal(true)
+          })
+
+          it('Test2', () => {
+            expect(true).to.equal(true)
+          })
+        }
+        )
